@@ -5,7 +5,7 @@
  * counting_sort - It sorts an array of integers in ascending order using a
  * counting sort algorithm
  * @array: The array of integers to be sorted
- * @size: The amount of elements 
+ * @size: The amount of elements
  */
 void counting_sort(int *array, size_t size)
 {

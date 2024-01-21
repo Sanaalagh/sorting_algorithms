@@ -3,7 +3,7 @@
 /**
  * swap - It changes two values in ascending or descending order
  * @arr: The array
- * @item1: first item 
+ * @item1: first item
  * @item2: second item
  * @order: 1: ascending order, 0 descending order
  */

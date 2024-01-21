@@ -4,7 +4,7 @@
 
 /**
  * PrintArray - It prints array of integers for range of indicies
- * @array: The array of values 
+ * @array: The array of values
  * @iBeg: The starting index value
  * @iEnd: The ending index value
  */

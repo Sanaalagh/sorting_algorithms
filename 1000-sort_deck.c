@@ -10,7 +10,7 @@ void sort_deck(deck_node_t **deck);
 /**
  * _strcmp - It Compares two strings
  * @s1: The first string
- * @s2: The second string 
+ * @s2: The second string
  * Return: A positive byte difference if s1 > s2
  *         0 if s1 == s2
  *         A negative byte difference if s1 < s2

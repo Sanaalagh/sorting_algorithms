@@ -2,7 +2,7 @@
 /**
  * bubble_sort - It sorts array lements from min to max value
  * @array: The array
- * @size: The size of array 
+ * @size: The size of array
  */
 void bubble_sort(int *array, size_t size)
 {

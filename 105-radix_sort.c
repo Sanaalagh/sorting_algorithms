@@ -3,7 +3,7 @@
 
 /**
  * init_bucket_count - It resets bucket_count values to 0
- * @bucket_count: The array containing amounts of members for arrays in `buckets`
+ * @bucket_count:array containing amounts of members for arrays in `buckets`
  */
 void init_bucket_count(int *bucket_count)
 {
@@ -16,7 +16,7 @@ void init_bucket_count(int *bucket_count)
 /**
  * build_buckets -It allocates space for arrays to be held in `buckets`
  * @buckets:The array of arrays each containing sorted members of `array`
- * @bucket_count: The array containing amounts of members 
+ * @bucket_count: The array containing amounts of members
  */
 void build_buckets(int *bucket_count, int **buckets)
 {
@@ -61,8 +61,8 @@ int find_max(int *array, size_t size)
  * then prints results and frees current buckets for next pass
  * @array: The array of values to be printed
  * @size:The  number of elements in array
- * @buckets: The array of arrays each containing sorted members of `array`
- * @bucket_count:The  array containing amounts of members for arrays in `buckets`
+ * @buckets: The array of arrays containing sorted members of `array`
+ * @bucket_count: array containing amounts of members for arrays in `buckets`
  */
 void into_array(int *array, size_t size, int **buckets, int *bucket_count)
 {
@@ -82,7 +82,7 @@ void into_array(int *array, size_t size, int **buckets, int *bucket_count)
 }
 
 /**
- * radix_sort - It Sorts array of integers in ascending order using a Radix sort
+ * radix_sort - It Sorts array of integers in ascending order
  * alogrithm starting with the LSD, the 'least significant (1s place) digit',
  * and sorting by next digit to left. Size of `bucket_count` here determined
  * by max range of key variance (digits 0-9), other solutions may be needed for
